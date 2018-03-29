@@ -1,0 +1,9 @@
+apply plugin: 'com.android.library'
+apply from: '../../AS-Proj-ShareSDK/EclipseModule.gradle'
+
+dependencies {
+	compile project(':ShareSDK')
+}
+android {
+    buildToolsVersion '25.0.0'
+}

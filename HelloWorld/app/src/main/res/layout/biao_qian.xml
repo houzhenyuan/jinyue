@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/back_mohu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:text="@string/LableText"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <CheckBox
+        android:id="@+id/MeiWen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="#FFFFFF"
+        style="@style/check_box"
+        android:text="@string/LableText_MeiWen"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="115dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <CheckBox
+        android:id="@+id/ZeXue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="#FFFFFF"
+        style="@style/check_box"
+        android:text="@string/LableText_ZeXue"
+        android:layout_below="@+id/MeiWen"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp" />
+
+    <CheckBox
+        android:id="@+id/KeHuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="#FFFFFF"
+        style="@style/check_box"
+        android:text="@string/LableText_KeHuan"
+        android:layout_marginTop="68dp"
+        android:layout_below="@+id/ZeXue"
+        android:layout_alignStart="@+id/textView2" />
+
+    <CheckBox
+        android:id="@+id/JiTang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="#FFFFFF"
+        style="@style/check_box"
+        android:text="@string/LableText_JiTang"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/MeiWen" />
+
+    <CheckBox
+        android:id="@+id/TuiLi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="#FFFFFF"
+        style="@style/check_box"
+        android:text="@string/LableText_TuiLi"
+        android:layout_below="@+id/GuWen"
+        android:layout_toEndOf="@+id/KeHuan"
+        android:layout_marginTop="11dp" />
+
+    <CheckBox
+        android:id="@+id/JiShi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="#FFFFFF"
+        style="@style/check_box"
+        android:text="@string/LableText_JiShi"
+        android:layout_marginTop="15dp"
+        android:layout_alignTop="@+id/ZeXue"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_marginEnd="14dp" />
+
+    <CheckBox
+        android:id="@+id/GuWen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="#FFFFFF"
+        style="@style/check_box"
+        android:text="@string/LableText_GuWen"
+        android:layout_below="@+id/JiTang"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/Next2"
+        android:layout_width="65sp"
+        android:layout_height="65sp"
+        android:background="@mipmap/button1"
+        android:text=""
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/TuiLi"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="@string/LableText_HuanYin"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Next2"
+        android:layout_alignEnd="@+id/JiTang" />
+
+</RelativeLayout>

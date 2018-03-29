@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">静阅</string>
+    <string name="MainText">欢迎使用简阅</string>
+    <string name="MinText">一款专注短篇阅读的APP</string>
+    <string name="GuideText">为了让您更好的阅读您喜欢的文章，我们将收集您的兴趣标签</string>
+    <string name="LableText">请选择您的兴趣</string>
+    <string name="LableText_MeiWen">美文</string>
+    <string name="LableText_ZeXue">哲学</string>
+    <string name="LableText_TuiLi">推理</string>
+    <string name="LableText_JiTang">鸡汤</string>
+    <string name="LableText_GuWen">古文</string>
+    <string name="LableText_KeHuan">科幻</string>
+    <string name="LableText_JiShi">记事</string>
+    <string name="LableText_HuanYin">祝您阅读愉快</string>
+    <string name="CeBianLan_title">兴趣标签</string>
+</resources>

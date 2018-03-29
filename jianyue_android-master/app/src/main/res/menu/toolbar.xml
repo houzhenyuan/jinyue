@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/flashWhite"
+        android:icon="@drawable/ic_flashblack"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/flashGreen"
+        android:icon="@drawable/ic_flashgreen"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/flashNight"
+        android:icon="@drawable/ic_flashnight"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/flashPink"
+        android:icon="@drawable/ic_flashpink"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/flashYellow"
+        android:icon="@drawable/ic_flashyellow"
+        app:showAsAction="ifRoom">
+    </item>
+</menu>
